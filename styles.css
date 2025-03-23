@@ -1,1 +1,15 @@
-/*  your css code here. If applicable */
+h1{
+	text-align:center;
+}
+input{
+	display:block;
+	width:100%;
+	padding:10px;
+}
+span{
+	color:blue;
+}
+#submit{
+	margin-top:5px;
+	padding:5px;
+}

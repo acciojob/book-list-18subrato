@@ -7,7 +7,28 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+        <h1>My<span>Book</span>List</h1>
+        <div class="form-group">
+			<label>Title</label>
+            <input type="text" id="title" class="form-control" >
+			<label>Author</label>
+            <input type="text" id="author" class="form-control" >
+			<label>ISBN#</label>
+            <input type="text" id="isbn" class="form-control">
+            <button id="submit">Add Book</button>
+        </div>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ISBN#</th>
+                </tr>
+            </thead>
+            <tbody id="book-list">
+                <!-- Rows will be dynamically added here -->
+            </tbody>
+        </table>
     <script type="text/javascript" src="./script.js">
 </script>
 
